@@ -84,6 +84,8 @@ function draw(){
     balconygroup.destroyEach();
     invisiblegroup.destroyEach();
     
+    sound.stop ();
+    
     background("black");
     
     textSize(70);
